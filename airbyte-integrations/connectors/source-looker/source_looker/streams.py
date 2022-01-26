@@ -419,7 +419,7 @@ class QueryHistory(BaseLookerStream):
 
 
 class RunLooks(LookerStream):
-    """ "
+    """
     Runs ready looks' requests
     Docs: https://docs.looker.com/reference/api-and-integration/api-reference/v4.0/look#run_look
     """
