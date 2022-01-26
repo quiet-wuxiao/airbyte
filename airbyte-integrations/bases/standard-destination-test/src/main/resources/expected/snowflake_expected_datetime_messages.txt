@@ -1,0 +1,12 @@
+{"type": "RECORD", "record": {"stream": "stream_with_dates", "emitted_at": 1602637589000, "data": { "date" : "2021-01-01T00:00:00Z"}}}
+{"type": "RECORD", "record": {"stream": "stream_with_dates", "emitted_at": 1602637589000, "data": { "date" : "2021-01-01T00:00:00Z"}}}
+{"type": "RECORD", "record": {"stream": "stream_with_dates", "emitted_at": 1602637589000, "data": { "datetime" : "2021-01-01T09:01:01Z"}}}
+{"type": "RECORD", "record": {"stream": "stream_with_dates", "emitted_at": 1602637589000, "data": { "datetime" : "2021-01-01T09:01:01Z"}}}
+{"type": "RECORD", "record": {"stream": "stream_with_dates", "emitted_at": 1602637589000, "data": { "datetime" : "2021-01-01T09:01:01Z"}}}
+{"type": "RECORD", "record": {"stream": "stream_with_dates", "emitted_at": 1602637589000, "data": { "datetime" : "2021-01-01T09:01:01Z"}}}
+{"type": "RECORD", "record": {"stream": "stream_with_dates", "emitted_at": 1602637589000, "data": { "datetime" : "2021-01-02T00:01:01Z"}}}
+{"type": "RECORD", "record": {"stream": "stream_with_dates", "emitted_at": 1602637589000, "data": { "datetime" : "2021-01-03T00:01:02Z"}}}
+{"type": "RECORD", "record": {"stream": "stream_with_dates", "emitted_at": 1602637589000, "data": { "datetime" : "2021-01-05T01:01:01Z"}}}
+{"type": "RECORD", "record": {"stream": "stream_with_dates", "emitted_at": 1602637589000, "data": { "datetime" : "2021-01-06T02:01:01Z"}}}
+{"type": "RECORD", "record": {"stream": "stream_with_dates", "emitted_at": 1602637589000, "data": { "datetime" : "2021-01-07T00:01:01Z"}}}
+{"type": "RECORD", "record": {"stream": "stream_with_dates", "emitted_at": 1602637589000, "data": { "datetime" : "2021-01-08T01:01:01Z"}}}

@@ -30,7 +30,11 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Map;
+import java.util.Spliterator;
+import java.util.Spliterators;
 import java.util.stream.Collectors;
+import java.util.stream.StreamSupport;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ArgumentsSource;
@@ -120,6 +124,34 @@ public class SnowflakeInsertDestinationAcceptanceTest extends DestinationAccepta
     }
     return result;
   }
+
+  @Override
+  public boolean shouldBeModified() {
+    return true;
+  }
+
+  @Override
+  public String messagesFileName() {
+    return "expected/snowflake_expected_datetime_messages.txt";
+  }
+//
+//  @Override
+//  public void modify(ObjectNode data, Map<String, String> datesField) {
+//    var fields = StreamSupport.stream(Spliterators.spliteratorUnknownSize(data.fields(),
+//        Spliterator.ORDERED), false).toList();
+//    data.removeAll();
+//    fields.forEach(field -> {
+//      var key = field.getKey();
+//      if (datesField.containsKey(key)) {
+//        switch (datesField.get(key)) {
+//          case "date-time" -> data.put(key.toLowerCase(), DateTimeUtils.getParsed(field.getValue().asText()));
+//          case "date" -> data.put(key.toLowerCase(), DateTimeUtils.convertToGeneralDateFormat2(field.getValue().asText()));
+//        }
+//      } else {
+//        data.set(key.toLowerCase(), field.getValue());
+//      }
+//    });
+//  }
 
   private List<JsonNode> retrieveRecordsFromTable(final String tableName, final String schema) throws SQLException {
     return SnowflakeDatabase.getDatabase(getConfig()).bufferedResultSetQuery(

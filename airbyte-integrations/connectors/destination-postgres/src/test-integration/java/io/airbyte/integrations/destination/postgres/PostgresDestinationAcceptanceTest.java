@@ -130,4 +130,13 @@ public class PostgresDestinationAcceptanceTest extends DestinationAcceptanceTest
     db.close();
   }
 
+  @Override
+  public boolean shouldBeModified() {
+    return true;
+  }
+
+  @Override
+  public String messagesFileName() {
+    return "expected/postgres_expected_datetime_messages.txt";
+  }
 }

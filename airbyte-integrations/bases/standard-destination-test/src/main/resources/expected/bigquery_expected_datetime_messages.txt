@@ -1,0 +1,12 @@
+{"type": "RECORD", "record": {"stream": "stream_with_dates", "emitted_at": 1602637589000, "data": { "date" : "2021-01-01"}}}
+{"type": "RECORD", "record": {"stream": "stream_with_dates", "emitted_at": 1602637589000, "data": { "date" : "2021-01-01"}}}
+{"type": "RECORD", "record": {"stream": "stream_with_dates", "emitted_at": 1602637589000, "data": { "datetime" : "1609462861.0"}}}
+{"type": "RECORD", "record": {"stream": "stream_with_dates", "emitted_at": 1602637589000, "data": { "datetime" : "1609462861.0"}}}
+{"type": "RECORD", "record": {"stream": "stream_with_dates", "emitted_at": 1602637589000, "data": { "datetime" : "1609462861.0"}}}
+{"type": "RECORD", "record": {"stream": "stream_with_dates", "emitted_at": 1602637589000, "data": { "datetime" : "1609462861.22654"}}}
+{"type": "RECORD", "record": {"stream": "stream_with_dates", "emitted_at": 1602637589000, "data": { "datetime" : "1609545661.0"}}}
+{"type": "RECORD", "record": {"stream": "stream_with_dates", "emitted_at": 1602637589000, "data": { "datetime" : "1609632061.546"}}}
+{"type": "RECORD", "record": {"stream": "stream_with_dates", "emitted_at": 1602637589000, "data": { "datetime" : "1609808461.0"}}}
+{"type": "RECORD", "record": {"stream": "stream_with_dates", "emitted_at": 1602637589000, "data": { "datetime" : "1609898461.0"}}}
+{"type": "RECORD", "record": {"stream": "stream_with_dates", "emitted_at": 1602637589000, "data": { "datetime" : "1609977661.0"}}}
+{"type": "RECORD", "record": {"stream": "stream_with_dates", "emitted_at": 1602637589000, "data": { "datetime" : "1610067661.0"}}}
